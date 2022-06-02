@@ -5,6 +5,6 @@
 
 ## This repository is used to store various useful tools
 
-1. AutoMakeFolder: Generate multiple folders automaticly.
+1. AutoMakeFolder: Generate multiple folders automatically.
 2. Science-Internet: Network proxy.
 
