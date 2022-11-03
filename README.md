@@ -7,4 +7,5 @@
 
 1. AutoMakeFolder: Generate multiple folders automatically.
 2. Science-Internet: Network proxy.
+3. MulWallet-ETH: Create multiple ETH wallets at the same time.
 
