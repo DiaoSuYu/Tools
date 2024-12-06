@@ -1,0 +1,17 @@
+解决方法 1：使用 Git LFS（推荐）
+Git LFS（Large File Storage） 是 GitHub 提供的一种专门用于处理大文件的工具。您可以使用 Git LFS 来存储这些超大的文件。
+
+安装 Git LFS：
+在 Windows 上运行以下命令：
+git lfs install
+
+如果未安装 Git LFS，请先从 Git LFS 官网 下载并安装。
+
+跟踪大文件： 将超过 100MB 的文件标记为使用 LFS 存储：
+git lfs track "Science-Internet/Clash/linux/Clash.for.Windows-0.20.39-x64-linux.tar.gz"
+
+提交文件到 LFS： 添加和提交这些大文件：
+git add .gitattributes
+git add Science-Internet/Clash/linux/Clash.for.Windows-0.20.39-x64-linux.tar.gz
+git commit -m "Track large file with LFS"
+git push origin main
